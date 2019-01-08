@@ -5,3 +5,55 @@ body {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+.flex{
+   display: flex;
+  flex-flow: row wrap;
+}
+.msg-liste{
+}
+
+.formulaire{
+  height: 90vh;
+  display: flex;
+  align-items: flex-end;
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+input{
+  border: 1px solid grey;
+  border-radius: 3px;
+  text-decoration: none;
+  width: 550px;
+    height: 30px;
+
+}
+
+input:focus{
+  text-decoration: none;
+   border: 1px solid grey !important;
+   outline-color: black;
+
+}
+.btn{
+  width: 100px;
+  height: 30px;
+  border-radius: 4px;
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  margin: 20px;
+}
+.btn:hover{
+  width: 100px;
+  height: 30px;
+  border-radius: 4px;
+  background-color: white;
+  color: black;
+  font-size: 12px;
+  border: 1px solid black !important;
+
+}
